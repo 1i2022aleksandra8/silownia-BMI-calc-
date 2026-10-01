@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Body Mass Index</title>
+</head>
+<body>
+    <header class="baner">
+        <img src="baner.gif" alt="baner">
+    </header>
+    
+    <main>
+        <section class="lewy">
+            <hr>
+            <h2></h2><a href="index.html">BMI</a></h2>
+            <hr>
+            <h2></h2><a href="kalkulator.html">Kalkulator</a></h2>
+            <hr>
+        </section>
+
+        <section class="prawy">
+            <form id="form">
+                <label for="waga">Waga</label>
+                <input type="number" id="waga">
+                <label for="wzrost">Wzrost</label>
+                <input type="number" id="wzrost">
+                <button id="Btn">Oblicz BMI</button>
+            </form>
+            <p id="WartoscWskaznika"></p>
+            <p id="WartoscKategoria"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Autorka strony: <i>Aleksandra Chimiak</i></p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
